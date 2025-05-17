@@ -1,6 +1,4 @@
-﻿namespace TALLERCHATBOX.Interfaces
+﻿public interface IChatBotService
 {
-    public class IChatBotService
-    {
-    }
+    Task<string> GetResponseAsync(string prompt);
 }

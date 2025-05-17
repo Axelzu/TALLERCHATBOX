@@ -1,4 +1,6 @@
 ﻿using System.Web.Mvc;
+using Microsoft.AspNetCore.Mvc;
+using TALLERCHATBOX.Models;
 
 public class ChatController : Controller
 {
